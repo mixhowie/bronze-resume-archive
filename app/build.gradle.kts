@@ -17,12 +17,12 @@ dependencies {
     implementation("com.squareup.okhttp3:okhttp:4.12.0")
     implementation("com.rometools:rome:2.1.0")
     implementation("me.tongfei:progressbar:0.10.0")
+    implementation("com.github.seratch:notion-sdk-jvm-core:1.11.1")
 }
 
 java {
     toolchain {
         languageVersion.set(JavaLanguageVersion.of(21))
-        vendor = JvmVendorSpec.AMAZON
     }
 }
 
